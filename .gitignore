@@ -1,6 +1,0 @@
-/node_modules
-.pyc
-.json
-.wolf*
-.gitignore
-*.nvmrc
