@@ -1,0 +1,17 @@
+lts/hydrogen;
+
+/*Run Commands para especificar para o usuário qual a versão do node estar utilizando.
+Utilizo a versão "stable" do Node.js para realizar este projeto.
+
+1 - npm install --global n; //instalação da ferramenta global de instal
+ar versões diferentes do nodejs;
+
+2 - Node -v => Versão do Node.js;
+
+3 - nvm ls => Listagem das versões com manutenção;
+
+4 - nvm ls -remote => Listagem do histórico completo de versões;
+
+5 - nvm alias default stable || nvm alias default lts/hydrogen => Definição da versão padrão.
+
+*/
