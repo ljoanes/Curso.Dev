@@ -1,6 +1,6 @@
 import style from './style.module.css';
-
 function Home() {
+
   return (
     <section>
       <h1 className={style.one}>
