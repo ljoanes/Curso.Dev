@@ -2,7 +2,7 @@ import style from './style.module.css';
 
 function Home() {
   return (
-    <>
+    <section>
       <h1 className={style.one}>
         Já te falei hoje que você é linda, Thais? Bom dia e bom trabalho,
         pretinha! S2
@@ -14,7 +14,7 @@ function Home() {
         height="500"
         width="366.875"
       />
-    </>
+    </section>
   );
 }
 
