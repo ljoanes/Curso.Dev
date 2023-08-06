@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:c": "prettier --check .",
+    "lint:f": "prettier --write ."
   },
   "author": "",
   "license": "ISC",
