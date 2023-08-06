@@ -3,7 +3,8 @@ function Home() {
   return (
     <section>
       <h1 className={style.one}>
-        Já te falei hoje que você é foda, Nani? S2
+        Já te falei hoje que você é linda, Thais? Bom dia e bom trabalho,
+        pretinha! S2
       </h1>
       <img
         className={style.two}
