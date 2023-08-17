@@ -5,17 +5,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "lint:c": "prettier --check .",
-    "lint:f": "prettier --write ."
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^13.4.13",
+    "next": "^13.4.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^3.0.1"
+    "jest": "^29.6.2",
+    "prettier": "^3.0.2"
   }
 }
