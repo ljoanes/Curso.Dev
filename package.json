@@ -8,7 +8,9 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:mocha": "mocha",
+    "test:mocha --watch": "mocha --watch"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "jest": "^29.6.2",
+    "mocha": "^10.2.0",
     "prettier": "^3.0.2"
   }
 }
