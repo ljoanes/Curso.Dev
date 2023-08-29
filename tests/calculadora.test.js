@@ -1,17 +1,16 @@
-test('Nome do teste', callbackFunction);
+const calculadora = require('../models/calculadora');
 
-function callbackFunction() {
-  console.log('está sendo salva');
-}
-
-test('Nome do teste 1', function () {
-  console.log('e assim funciona?');
+test('Somar 2 + 2 deveria retornar 4', () => {
+  const resultado = calculadora.somar(2, 2);
+  expect(resultado).toBe(4);
 });
 
-test('Nome do teste 2', () => {
-  console.log('e assim funciona também?');
+test('Somar 5 + 100 deveria retornar 105', () => {
+  const resultado = calculadora.somar(5, 100);
+  expect(resultado).toBe(105);
 });
 
-test('espero que 1 seja 1', () => {
-  expect(1).toBe(1);
+test("Somar 'banana' + 100 deveria retornar 'Erro'", () => {
+  const resultado = calculadora.somar('banana', 100);
+  expect(resultado).toBe('Erro');
 });
