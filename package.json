@@ -8,14 +8,15 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watchAll",
     "test:mocha": "mocha",
     "test:mocha --watch": "mocha --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^13.5.4",
+    "next": "^13.5.6",
+    "pg": "^8.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
